@@ -13,3 +13,4 @@ Probably like:
 	pipenv install
         pipenv shell
 	./map.py --level 0 --start -73 -17
+	xdg-open map.png  # or something more Cupertino friendly
