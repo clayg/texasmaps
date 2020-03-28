@@ -22,5 +22,5 @@ get some city names
 Assuming the above worked, maybe like:
 
 	sudo apt install tesseract-ocr
-	./convert.py map.png out.png
-        ./cv_test.py out.png
+	./find_cities.py map.png out.png
+	xdg-open out.png
